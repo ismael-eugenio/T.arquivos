@@ -3,11 +3,11 @@ package entiteies;
 public class Products {
 	
 	public String name;
-	public Double price;
-	public Integer itensNumber;
+	public double price;
+	public int itensNumber;
 	
 	
-	public Products(String name , Double price, Integer itensNumber){
+	public Products(String name , double price, int itensNumber){
 		
 		this.name = name;
 		this.price = price;
@@ -20,27 +20,27 @@ public class Products {
 	}
 
 
-	public void setName(String name) {
+	public void setname(String name) {
 		this.name = name;
 	}
 
 
-	public Double getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
 
-	public void setPrice(Double price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 
 
-	public Integer getItensNumber() {
+	public int getItensNumber() {
 		return itensNumber;
 	}
 
 
-	public void setItensNumber(Integer itensNumber) {
+	public void setItensNumber(int itensNumber) {
 		this.itensNumber = itensNumber;
 	}
 	

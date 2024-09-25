@@ -20,7 +20,7 @@ public class Products {
 	}
 
 
-	public void setName(String name) {
+	public void setname(String name) {
 		this.name = name;
 	}
 
